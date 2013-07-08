@@ -8,5 +8,5 @@ This is a work in progress!
 ==============================
 This is a customised version of a combination of two similar starter templates built for a similar purpose:
 
-https://github.com/kajackdfw/angular_bootstrap_app
-https://github.com/davidb583/white-angularjs-app
+* https://github.com/kajackdfw/angular_bootstrap_app
+* https://github.com/davidb583/white-angularjs-app
