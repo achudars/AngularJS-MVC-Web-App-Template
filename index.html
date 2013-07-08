@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html ng-app='App'>
+<head>
+	<title>AngularJS App</title>
+
+	<!-- LIBRARIES -->
+	<script src='//cdnjs.cloudflare.com/ajax/libs/angular.js/1.1.5/angular.js'></script>
+	<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
+	<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+
+	<!-- STYLE / THEME -->
+	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+	<link href="//cdncatalog.com/assets/flat-ui/css/flat-ui.css" rel="stylesheet">
+	<link href="view/css/style.css" rel="stylesheet">
+
+	<!-- THIS APP. -->
+	<script src='App.js'></script>
+	<script src='controller/controllers.js'></script>
+	<script src='model/Model.js'></script>
+</head>
+
+<body class="container">
+
+	<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="nav-collapse collapse">
+            <p class="navbar-text pull-right">
+              Logged in as Guest
+            </p>
+            <ul class="nav">
+              <li class="active"><a href="#/view1">Home</a></li>
+              <li><a href="#/view2">About</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span3">
+          
+        </div><!--/span-->
+        <div class="span12">
+          <div class="hero-unit">
+            <h1>Web App MVC Template</h1>
+            <p>This is a web application starter template built with AngularJS with an MVC structure</p>
+          </div>
+
+		  
+          <div class="row-fluid" ng-view><!-- VIEWS --></div>
+
+        </div><!--/span-->
+      </div><!--/row-->
+
+    </div><!--/.fluid-container-->
+
+</body>
+</html>
