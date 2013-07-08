@@ -1,0 +1,3 @@
+App.directive('gbNoteList', function() { 
+	
+});

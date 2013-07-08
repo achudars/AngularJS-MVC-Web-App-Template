@@ -1,0 +1,38 @@
+<br />
+
+<div class='well span6'>
+<div class='tabbable' >
+	<ul class='nav nav-tabs' style='margin-bottom: 0px;'>
+		<li class='{{tab_0}}' ><a href='#/about/tab/0'>A</a></li>
+		<li class='{{tab_1}}' ><a href='#/about/tab/1'>B</a></li>
+		<li class='{{tab_2}}' ><a href='#/about/tab/2'>C</a></li>
+		<li class='{{tab_3}}' ><a href='#/about/tab/3'>D</a></li>
+	</ul>
+</div>
+
+
+<div class='tab-content'><div class='tab-pane active'>
+	<ng-switch on='tabId'>
+	
+		<span ng-switch-default >
+			A
+		</span>
+
+		<span ng-switch-when='1'>
+			B	
+		</span>
+
+		<span ng-switch-when='2'>
+			C
+		</span>
+
+		<span ng-switch-when='3'>
+			D
+		</span>
+	
+	</ng-switch>
+</div></div>
+
+
+</div> <!-- end of well -->
+
