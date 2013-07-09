@@ -1,22 +1,15 @@
-'use strict';
+var newConfig = function($routeProvider) { 
+    $routeProvider
+        .when('/view1', {
+            controller: 'controllers',
+            templateUrl: 'view/view1.html'
+        })
+        .otherwise({
+            controller: 'controllers',
+            templateUrl: 'view/view2.html'
+        })
+    ;
+};
 
-var myApp = angular.module('myApp', []);
+var SeedApp = angular.module('SeedApp',[]).config(newConfig);
 
-myApp.config(function($routeProvider) {
-    $routeProvider.when(
-    	'/view1', 
-    	{
-    		templateUrl: 'partials/partial1.html', 
-    		controller: 'MyCtrl1'
-    	});
-    $routeProvider.when(
-    	'/view2', 
-    	{
-    		templateUrl: 'partials/partial2.html', 
-    		controller: 'MyCtrl2'
-    	});
-    $routeProvider.otherwise(
-        {
-            redirectTo: '/view1'
-        });
-});
