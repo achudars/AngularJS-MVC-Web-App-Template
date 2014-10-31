@@ -1,3 +1,7 @@
+"use strict";
+
+var App = angular.module("App.services",[]);
+
 App.service('Model', function() {
 	this.getLinks = function() {
 		return [{
@@ -20,4 +24,4 @@ App.service('Model', function() {
 				title: 'Item F'
 			}
 		]};
-	});			
+	});
