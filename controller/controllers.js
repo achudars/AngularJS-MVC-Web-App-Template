@@ -10,7 +10,7 @@
   }]);
 
   App.controller("MyCtrl2", ["$scope", function($scope){
-
+      // if you have many controllers, it's better to separate them into files
   }]);
 
 }());

@@ -1,4 +1,4 @@
-//(function () {
+(function () {
 
   "use strict";
 
@@ -12,4 +12,4 @@
 
   // just copy paste the example above to add more filters
 
-//}());
+}());
