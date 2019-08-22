@@ -10,3 +10,5 @@ This is a customised version of a combination of two similar starter templates b
 
 * https://github.com/kajackdfw/angular_bootstrap_app
 * https://github.com/davidb583/white-angularjs-app
+
+![alt text](https://imgur.com/DREeNEa "scheenshot")
