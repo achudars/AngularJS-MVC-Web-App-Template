@@ -2,7 +2,7 @@
 
 A starter template for an AngularJS Web Application with a MVC folder structure.
 
-Uses AngularJS 1.3.0, jQuery 3.4.1, Twitter Bootstrap 3.3.0, Flat UI as CDNs &amp; HTML5
+Uses AngularJS 1.7.8, jQuery 3.6.1, Twitter Bootstrap 5.2.0, Flat UI 2.3.0 as CDNs &amp; HTML5
 
 This is a customized version of a combination of two similar starter templates built for a similar purpose:
 

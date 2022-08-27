@@ -1,3 +1,3 @@
-App.directive('gbNoteList', function() { 
-	
-});
+App.directive('gbNoteList', () => {
+    // TODO
+    });
